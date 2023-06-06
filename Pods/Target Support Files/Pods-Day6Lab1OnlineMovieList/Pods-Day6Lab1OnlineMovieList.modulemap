@@ -1,0 +1,6 @@
+framework module Pods_Day6Lab1OnlineMovieList {
+  umbrella header "Pods-Day6Lab1OnlineMovieList-umbrella.h"
+
+  export *
+  module * { export * }
+}

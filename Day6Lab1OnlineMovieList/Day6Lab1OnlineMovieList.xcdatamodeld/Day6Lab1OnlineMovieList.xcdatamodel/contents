@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22E261" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="FavoriteEntity" representedClassName="FavoriteEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="gross" optional="YES" attributeType="String"/>
+        <attribute name="header" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="rank" optional="YES" attributeType="String"/>
+        <attribute name="weekend" optional="YES" attributeType="String"/>
+        <attribute name="weeks" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="MovieEntity" representedClassName="MovieEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="movie_list" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromDataTransformer" customClassName="[Item]"/>
+    </entity>
+    <entity name="MovieEntity2" representedClassName="MovieEntity2" syncable="YES" codeGenerationType="class">
+        <attribute name="gross" optional="YES" attributeType="String"/>
+        <attribute name="header" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="rank" optional="YES" attributeType="String"/>
+        <attribute name="weekend" optional="YES" attributeType="String"/>
+        <attribute name="weeks" optional="YES" attributeType="String"/>
+    </entity>
+</model>
